@@ -28,13 +28,13 @@
 <!-- More Informations -->
 <p align="center">
   <a href="https://raulilma.com/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&center=true&weight=600&width=560&height=20&color=ffa657&vCenter=true&duration=1&pause=1000&size=22&lines=More%20Informations" alt="Raul's Occupations" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&center=true&weight=600&width=560&height=40&color=ffa657&vCenter=true&duration=1&pause=1000&size=22&lines=More%20Informations" alt="Raul's Detailed Informations" /></a>
 </p>
 <details> 
-  <summary><h5 style="color: #ffa657">🛠️ My Favorite Tools</h5></summary>
+  <summary><h5>🛠️ My Favorite Tools</h5></summary>
   <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
 
-  </h6>👨‍💻 Programming and Markup Languages<//h6>
+  <h6>👨‍💻 Programming and Markup Languages</h6>
 
   <p>
       <a href="https://github.com/search?q=user%3Araulilma+language%3Aassembly"><img alt="MIPS Assembly" src="https://custom-icon-badges.demolab.com/badge/Assembly-525252.svg?logo=asm-hex&logoColor=white"></a>
@@ -62,7 +62,7 @@
       <a href="https://github.com/search?q=user%3Araulilma+language%3AtypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
   </p>
 
-  </h6>🧰 Frameworks and Libraries<//h6>
+  <h6>🧰 Frameworks and Libraries</h6>
 
   <p>
       <a href="#"><img alt="Arduino" src="https://img.shields.io/badge/-Arduino-00979D?logo=Arduino&logoColor=white"></a>
@@ -92,7 +92,7 @@
       <a href="#"><img alt="WPF (.Net)" src="https://img.shields.io/badge/WPF-5C2D91?logo=.net&logoColor=white"></a>
   </p>
 
-  </h6>🗄️ Databases and Cloud Hosting<//h6>
+  <h6>🗄️ Databases and Cloud Hosting</h6>
 
   <p>
       <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
@@ -108,7 +108,7 @@
       <a href="#"><img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white"></a>
   </p>
 
-  </h6>💻 Software and Tools<//h6>
+  <h6>💻 Software and Tools</h6>
 
   <p>
       <a href="#"><img alt="Adobe" src="https://img.shields.io/badge/Adobe-FF0000.svg?logo=adobe&logoColor=white"></a>
@@ -137,9 +137,9 @@
 </details>
 
 <details> 
-  <summary><h5 style="color: #ffa657">📊 Github Stats and Activity</h5></summary>
+  <summary><h5>📊 Github Stats and Activity</h5></summary>
 
-  </h6>🔥 Streak Stats<//h6>
+  <h6>🔥 Streak Stats</h6>
 
   <!-- GitHub Readme Streak Stats - https://github.com/raulilma/github-readme-streak-stats -->
   <p>
@@ -148,7 +148,7 @@
     </a>
   </p>
 
-  </h6>💻 GitHub Profile Stats<//h6>
+  <h6>💻 GitHub Profile Stats</h6>
 
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
