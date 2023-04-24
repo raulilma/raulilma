@@ -1,0 +1,40 @@
+name: Raul Ilma Rajasa's README Profile Workflow
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 */2 * * *" # update setiap 2 jam
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Setup Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Configure pip cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/cache/requiredlibs.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+      - name: Install Dependencies
+        run: python -m pip install -r cache/requiredlibs.txt
+      - name: Run Program to Update Profile README
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: python today.py
+      - name: Push the Updates to Repository
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "action@github.com"
+          git config --global user.name "raulilma/GitHub-Actions-Bot"
+          git commit -m "update: README" -a || echo "No changes to commit"
+          git push
