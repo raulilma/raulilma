@@ -19,11 +19,11 @@
 <!-- Occupations -->
 <p align="center">
   <a href="https://raulilma.com/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&center=true&weight=600&width=560&height=20&color=ffa657&vCenter=true&duration=1&pause=1000&size=22&lines=Current%20Positions" alt="Raul's Occupations" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&center=true&weight=600&width=560&height=20&color=ffa657&vCenter=true&duration=1&pause=1000&size=22&lines=Experiences" alt="Raul's Experiences" /></a>
 </p>
 <p align="center">
   <a href="https://raulilma.com/">
-    <img src="https://readme-typing-svg.demolab.com/?lines=CEO%20of%20PT%20Techiro%20Digital%20Academy;CTO%20of%20PT%20Inteligensi%20Teknologi%20Indonesia%20(INCLUDE);Operational%20Director%20of%20PT%20Archipelago%20Sukses%20Abadi;CIO-CTO%20of%20PT%20Balikpapan%20Energi%20Terbarukan&font=Fira%20Code&center=true&width=650&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
+    <img src="https://readme-typing-svg.demolab.com/?lines=CEO%20of%20PT%20Techiro%20Digital%20Academy;CTO%20of%20PT%20Inteligensi%20Teknologi%20Indonesia%20(INCLUDE);Software%20Researcher%20at%20Tanz%20Global%20Technology;SEO%20and%20Web%20Developer%20of%20PT%20Lentera%20Alam%20Nusantara;Full-Stack%20Web%20Developer%20of%20PT%20Lusmo%20Digital;Operational%20Director%20of%20PT%20Archipelago%20Sukses%20Abadi;CIO-CTO%20of%20PT%20Balikpapan%20Energi%20Terbarukan&font=Fira%20Code&center=true&width=650&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
 
 <!-- More Informations -->
 <p align="center">
@@ -173,6 +173,6 @@
 <a href="https://twitter.com/raulilmar">
     <img src="https://img.shields.io/badge/Twitter-ffa657?style=for-the-badge&logo=twitter&logoColor=white" alt="Raul's Twitter" /></a>
     
-![](https://komarev.com/ghpvc/?username=your-github-username&color=ffa657)
+![](https://komarev.com/ghpvc/?username=raulilma&color=ffa657)
 
 </p>
