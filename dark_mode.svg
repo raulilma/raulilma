@@ -47,11 +47,12 @@ text, tspan {white-space: pre;}
 <tspan x="380" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">Sepuluh Nopember Institute of Technology</tspan><tspan class="commentColor"> #ITS</tspan>
 <tspan x="380" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Informatics Engineering // Comsci</tspan><tspan class="commentColor"> #ELECTICS</tspan>
 <tspan x="380" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">IntelliJ IDEA 2021.2.1, VSCode 1.64.0</tspan>
-<tspan x="380" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Java, Python, C++, JavaScript</tspan>
+<tspan x="380" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">Java, Python, C, C#, C++, PHP, TypeScript, JavaScript</tspan>
 <tspan x="380" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, LaTeX, YAML, Markdown</tspan>
 <tspan x="380" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Indonesian</tspan>
 <tspan x="380" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Unity 3D, Unreal Engine, Blender, Android Studio</tspan>
-<tspan x="380" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Hardware</tspan>: <tspan class="valueColor">Internet of Things (IoT)</tspan>
+<tspan x="380" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Website</tspan>: <tspan class="valueColor">React.js, Next.js, Vue.js, Laravel, Golang, Three.js</tspan>
+<tspan x="380" y="310" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Hardware</tspan>: <tspan class="valueColor">Internet of Things (IoT)</tspan>
 <tspan x="380" y="330" class="keyColor">Contact</tspan>:
 <tspan x="380" y="350">——————</tspan>
 <tspan x="380" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">raulilmarajasa@gmail.com</tspan>
