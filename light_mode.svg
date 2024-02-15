@@ -60,8 +60,8 @@ text, tspan {white-space: pre;}
 <tspan x="380" y="430" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">Raul Ilma Rajasa</tspan>
 <tspan x="380" y="470" class="keyColor">Github Stats</tspan>:
 <tspan x="380" y="490">——————</tspan>
-<tspan x="380" y="510" class="keyColor">Repos</tspan>: <tspan class="valueColor">46</tspan> {<tspan class="keyColor">Contrib to</tspan>: <tspan class="valueColor">59</tspan>} | <tspan class="keyColor">Commits</tspan>: <tspan class="valueColor">955    </tspan> | <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">2</tspan>
-<tspan x="380" y="530" class="keyColor">Lines of Code Written by Me</tspan>: <tspan class="valueColor">4,050,779</tspan> (<tspan class="addColor">4,174,459++</tspan>, <tspan class="delColor">123,680--</tspan>)
+<tspan x="380" y="510" class="keyColor">Repos</tspan>: <tspan class="valueColor">46</tspan> {<tspan class="keyColor">Contrib to</tspan>: <tspan class="valueColor">59</tspan>} | <tspan class="keyColor">Commits</tspan>: <tspan class="valueColor">956    </tspan> | <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">2</tspan>
+<tspan x="380" y="530" class="keyColor">Lines of Code Written by Me</tspan>: <tspan class="valueColor">4,050,779</tspan> (<tspan class="addColor">4,174,461++</tspan>, <tspan class="delColor">123,682--</tspan>)
 </text>
 
 </svg>
