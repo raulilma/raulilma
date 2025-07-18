@@ -23,7 +23,7 @@
 </p>
 <p align="center">
   <a href="https://raulilma.com/">
-    <img src="https://readme-typing-svg.demolab.com/?lines=CEO%20of%20PT%20Techiro%20Digital%20Academy;CTO%20of%20PT%20Inteligensi%20Teknologi%20Indonesia%20(INCLUDE);Software%20Researcher%20at%20Tanz%20Global%20Technology;SEO%20and%20Web%20Developer%20of%20PT%20Lentera%20Alam%20Nusantara;Full-Stack%20Web%20Developer%20of%20PT%20Lusmo%20Digital;Operational%20Director%20of%20PT%20Archipelago%20Sukses%20Abadi;CIO-CTO%20of%20PT%20Balikpapan%20Energi%20Terbarukan&font=Fira%20Code&center=true&width=650&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
+    <img src="https://readme-typing-svg.demolab.com/?lines=CEO%20of%20PT%20Techiro%20Digital%20Academy;CTO%20of%20PT%20Inteligensi%20Teknologi%20Indonesia%20(INCLUDE);Ex-Software%20Researcher%20at%20Tanz%20Global%20Technology;Ex-SEO%20and%20Web%20Developer%20of%20PT%20Lentera%20Alam%20Nusantara;Ex-Full-Stack%20Web%20Developer%20of%20PT%20Lusmo%20Digital;Ex%20Operational%20Director%20of%20PT%20Archipelago%20Sukses%20Abadi;Ex-CIO-CTO%20of%20PT%20Balikpapan%20Energi%20Terbarukan&font=Fira%20Code&center=true&width=650&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
 
 <!-- More Informations -->
 <p align="center">
@@ -152,16 +152,15 @@
 
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://DenverCoder1-github-readme-stats.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://DenverCoder1-github-readme-stats.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
-  <br/>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://DenverCoder1-github-readme-stats.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://DenverCoder1-github-readme-stats.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+<br/>
 
-  <b>Note:</b> The "Most Used Languages" metric solely reflects the languages present in my public code and should not be considered as a reflection of my level of experience or skill in those languages.
+<b>Note:</b> The "Most Used Languages" metric solely reflects the languages present in my public code and should not be considered as a reflection of my level of experience or skill in those languages.
 
-  
   <!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
 
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="raulilma's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph/?username=raulilma&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="raulilma's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph/?username=raulilma&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
 
 </details>
 
