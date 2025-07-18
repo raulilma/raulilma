@@ -320,18 +320,42 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
     """
     svg = minidom.parse(filename)
-    f = open(filename, mode='w', encoding='utf-8')
     tspan = svg.getElementsByTagName('tspan')
-    tspan[31].firstChild.data = age_data
-    tspan[68].firstChild.data = repo_data
-    tspan[70].firstChild.data = contrib_data
-    tspan[72].firstChild.data = commit_data
-    tspan[74].firstChild.data = star_data
-    tspan[76].firstChild.data = loc_data[2]
-    tspan[77].firstChild.data = loc_data[0] + '++'
-    tspan[78].firstChild.data = loc_data[1] + '--'
-    f.write(svg.toxml('utf-8').decode('utf-8'))
-    f.close()
+    
+    # Find elements by their CSS class to be more robust
+    for i, span in enumerate(tspan):
+        if span.firstChild and span.getAttribute('class') == 'valueColor':
+            text = span.firstChild.data.strip()
+            # Match by current content pattern to identify which value to replace
+            if text.replace(',', '').replace(' ', '').isdigit():
+                # Check context to determine which stat this is
+                prev_span = tspan[i-1] if i > 0 else None
+                if prev_span and prev_span.firstChild:
+                    prev_text = prev_span.firstChild.data
+                    if prev_text == 'Repos':
+                        span.firstChild.data = repo_data
+                    elif prev_text == 'Contrib to':
+                        span.firstChild.data = contrib_data
+                    elif prev_text == 'Commits':
+                        span.firstChild.data = commit_data
+                    elif prev_text == 'Stars':
+                        span.firstChild.data = star_data
+                    elif prev_text == 'Lines of Code Written by Me':
+                        span.firstChild.data = loc_data[2]
+        elif span.firstChild and span.getAttribute('class') == 'addColor':
+            span.firstChild.data = loc_data[0] + '++'
+        elif span.firstChild and span.getAttribute('class') == 'delColor':
+            span.firstChild.data = loc_data[1] + '--'
+    
+    # Update age separately as it's not in the stats section
+    for i, span in enumerate(tspan):
+        if span.firstChild and span.getAttribute('class') == 'valueColor':
+            if 'years' in span.firstChild.data and 'months' in span.firstChild.data:
+                span.firstChild.data = age_data
+                break
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(svg.toxml('utf-8').decode('utf-8'))
 
 
 def commit_counter(comment_size):
