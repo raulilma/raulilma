@@ -350,7 +350,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     # Update age separately as it's not in the stats section
     for i, span in enumerate(tspan):
         if span.firstChild and span.getAttribute('class') == 'valueColor':
-            if 'years' in span.firstChild.data and 'months' in span.firstChild.data:
+            if isinstance(span.firstChild.data, str) and 'years' in span.firstChild.data and 'months' in span.firstChild.data:
                 span.firstChild.data = age_data
                 break
     
