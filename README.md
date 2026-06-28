@@ -157,13 +157,13 @@
     1. Enable Settings → Profile → "Include private contributions on my profile".
     2. Deploy YOUR OWN github-readme-stats instance to Vercel and set env PAT_1 = a secret
        token with `repo` read scope (NEVER share that token anywhere).
-    3. Replace the host `DenverCoder1-github-readme-stats.vercel.app` below with YOUR instance
+    3. Replace the host `github-readme-stats-omega-pink-98.vercel.app` below with YOUR instance
        host (e.g. raulilma-stats.vercel.app). A third-party instance can only ever see PUBLIC
        repos, so count_private has no effect until the host is your own.
   -->
 
-<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://DenverCoder1-github-readme-stats.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://DenverCoder1-github-readme-stats.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://github-readme-stats-omega-pink-98.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://github-readme-stats-omega-pink-98.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
 <br/>
 
   <h6>🏆 Profile Trophies</h6>
