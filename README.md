@@ -5,7 +5,7 @@
 </p>
 <p align="center">
   <a href="https://raulilma.com/">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20Web,%20Mobile,%20and%203D%20Game%20Developer;Creative%20IT%20Generalist%20and%20Technopreneur;5%2B%20years%20of%20experience%20developing%20polished%20apps;Currently%20building%20INCLUDE%20and%20Techiro&font=Fira%20Code&center=true&width=560&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20Web,%20Mobile,%20and%203D%20Game%20Developer;Creative%20IT%20Generalist%20and%20Technopreneur;5%2B%20years%20of%20experience%20developing%20polished%20apps;Currently%20building%20Apptify,%20INCLUDE,%20and%20Techiro&font=Fira%20Code&center=true&width=560&height=20&color=ffa657&vCenter=true&pause=1000&size=20" /></a>
 </p>
 
 <!-- Main Feature -->
@@ -150,17 +150,34 @@
 
   <h6>💻 GitHub Profile Stats</h6>
 
-  <!-- https://github.com/anuraghazra/github-readme-stats -->
+  <!--
+    https://github.com/anuraghazra/github-readme-stats
 
-<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://DenverCoder1-github-readme-stats.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
+    ⚠️ TO COUNT YOUR PRIVATE CONTRIBUTIONS (this is what lifts the rank from C+ toward S/A+):
+    1. Enable Settings → Profile → "Include private contributions on my profile".
+    2. Deploy YOUR OWN github-readme-stats instance to Vercel and set env PAT_1 = a secret
+       token with `repo` read scope (NEVER share that token anywhere).
+    3. Replace the host `DenverCoder1-github-readme-stats.vercel.app` below with YOUR instance
+       host (e.g. raulilma-stats.vercel.app). A third-party instance can only ever see PUBLIC
+       repos, so count_private has no effect until the host is your own.
+  -->
+
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://DenverCoder1-github-readme-stats.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://DenverCoder1-github-readme-stats.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
+<br/>
+
+  <h6>🏆 Profile Trophies</h6>
+
+  <!-- https://github.com/ryo-ma/github-profile-trophy -->
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img alt="raulilma's Trophies" src="https://github-profile-trophy.vercel.app/?username=raulilma&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7" /></a>
 <br/>
 
 <b>Note:</b> The "Most Used Languages" metric solely reflects the languages present in my public code and should not be considered as a reflection of my level of experience or skill in those languages.
 
   <!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
 
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="raulilma's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph/?username=raulilma&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="raulilma's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=raulilma&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
 
 </details>
 
