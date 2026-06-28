@@ -163,14 +163,7 @@
   -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Github Stats" src="https://github-readme-stats-omega-pink-98.vercel.app/api/?username=raulilma&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://github-readme-stats-omega-pink-98.vercel.app/api/top-langs/?username=raulilma&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
-<br/>
-
-  <h6>🏆 Profile Trophies</h6>
-
-  <!-- https://github.com/ryo-ma/github-profile-trophy -->
-
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img alt="raulilma's Trophies" src="https://github-profile-trophy.vercel.app/?username=raulilma&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7" /></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="raulilma's Top Languages" src="https://github-readme-stats-omega-pink-98.vercel.app/api/top-langs/?username=raulilma&langs_count=8&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&text_color=c9d1d9&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/></a>
 <br/>
 
 <b>Note:</b> The "Most Used Languages" metric solely reflects the languages present in my public code and should not be considered as a reflection of my level of experience or skill in those languages.
