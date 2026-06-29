@@ -246,17 +246,24 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     cache_comment = data[:comment_size] # save the comment block
     data = data[comment_size:] # remove those lines
+    _dbg = {'matched': 0, 'recompute': 0, 'typeerr': 0, 'sample': None}
     for index in range(len(edges)):
         repo_hash, commit_count, *__ = data[index].split()
         if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
+            _dbg['matched'] += 1
             try:
                 if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
                     # if commit count has changed, update loc for that repo
                     owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
                     data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
+                    _dbg['recompute'] += 1
+                    if loc[2] > 0 and _dbg['sample'] is None:
+                        _dbg['sample'] = (edges[index]['node']['nameWithOwner'].split('/')[-1], loc, data[index].strip())
             except TypeError: # If the repo is empty
+                _dbg['typeerr'] += 1
                 data[index] = repo_hash + ' 0 0 0 0\n'
+    print('DEBUG cache_builder:', _dbg, 'nonzero_rows:', sum(1 for d in data if len(d.split()) > 1 and d.split()[1] != '0'), flush=True)
     with open(filename, 'w') as f:
         f.writelines(cache_comment)
         f.writelines(data)
