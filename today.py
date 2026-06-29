@@ -159,7 +159,13 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     only adds the LOC value of commits authored by me
     """
     for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
+        # A commit's author can be null (bot commits, or commits whose email is
+        # not linked to any GitHub account). Guard against it: indexing
+        # ['user'] on a None author raised TypeError, which the caller caught as
+        # "empty repo" and zeroed the WHOLE repository's LOC/commits — the cause
+        # of the all-zeros cache (Commits: 1, tiny LOC).
+        author = node['node'].get('author')
+        if author is not None and author.get('user') == OWNER_ID:
             my_commits += 1
             addition_total += node['node']['additions']
             deletion_total += node['node']['deletions']
