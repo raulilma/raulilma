@@ -260,8 +260,12 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     _dbg['recompute'] += 1
                     if loc[2] > 0 and _dbg['sample'] is None:
                         _dbg['sample'] = (edges[index]['node']['nameWithOwner'].split('/')[-1], loc, data[index].strip())
-            except TypeError: # If the repo is empty
+            except TypeError as _e: # If the repo is empty
                 _dbg['typeerr'] += 1
+                if _dbg['sample'] is None:
+                    _dbg['sample'] = (edges[index]['node'].get('nameWithOwner'),
+                                      'dbr=' + repr(edges[index]['node'].get('defaultBranchRef'))[:160],
+                                      'err=' + repr(_e))
                 data[index] = repo_hash + ' 0 0 0 0\n'
     print('DEBUG cache_builder:', _dbg, 'nonzero_rows:', sum(1 for d in data if len(d.split()) > 1 and d.split()[1] != '0'), flush=True)
     with open(filename, 'w') as f:
