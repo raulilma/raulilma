@@ -5,6 +5,7 @@ on:
       - main
   schedule:
     - cron: "0 */2 * * *" # update setiap 2 jam
+  workflow_dispatch: # allow manual on-demand runs
 jobs:
   build:
     runs-on: ubuntu-latest
